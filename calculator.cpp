@@ -24,18 +24,14 @@ int main()
 		result = number1 - number2;
  		printf("the reult is: %.2f - %.2f = %.2f", number1, number2, result);
  	    break ;	
-    case 3:
-    	result = number1 * number2;
+        case 3:
+    	        result = number1 * number2;
  		printf("the reult is: %.2f * %.2f = %.2f", number1, number2, result);
  	    break ;	
-    case 4:
-    	result = number1 / number2;
+        case 4:
+    	        result = number1 / number2;
  		printf("the reult is: %.2f / %.2f = %.2f", number1, number2, result);
  	    break ;	
-  	
  }
 return 0;
- 
-    
-	
 }
